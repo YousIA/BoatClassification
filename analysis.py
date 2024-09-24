@@ -1,8 +1,8 @@
 from typing import List
-from utils import CsvResultsHandler, \
-    GpuResultsHandler, \
-    CsvExperimentHandler, \
-    AnovaAnalysis
+import CsvResultsHandler
+import GpuResultsHandler
+import CsvExperimentHandler
+import AnovaAnalysis
 from typing import List
 import pandas as pd
 from itertools import product
