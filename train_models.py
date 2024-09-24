@@ -1,5 +1,5 @@
-from utils import YoloTrain
-from utils import CsvExperimentHandler
+import YoloTrain
+import CsvExperimentHandler
 
 def main() -> None:
     experiments = CsvExperimentHandler("experiments.csv")
