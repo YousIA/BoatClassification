@@ -1,4 +1,4 @@
-from utils import ExperimentsDesign
+import ExperimentsDesign
 
 def main() -> None:
     model_size = ['n', 's', 'm']
